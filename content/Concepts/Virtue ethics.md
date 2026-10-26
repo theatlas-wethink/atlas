@@ -53,3 +53,4 @@ Aristotle posited that virtue is typically a mean state between two vices: an **
 * [[Utilitarianism]]: Judges actions purely on aggregate outcomes rather than the character of the actor.
 * [[Moral Absolutism]]: Binds agents to universal, exceptionless rules regardless of individual character development or situational context.
 * [[Moral Relativism]]: Challenges the existence of an objective standard for human flourishing (*Eudaimonia*).
+---

@@ -36,3 +36,4 @@ Evaluates the utility of adhering to general rules of conduct rather than indivi
 
 * [[Deontology]]: Argues that duty and moral rules are binding regardless of consequences.
 * [[Virtue Ethics]]: Focuses on moral character rather than actions or outcomes.
+---

@@ -171,3 +171,6 @@ to know where they are going, the ones who walk away from Omelas.
 
 
 This connects to [[Utilitarianism]] and [[Moral Absolutism]]
+
+
+---
