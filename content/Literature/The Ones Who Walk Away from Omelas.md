@@ -170,3 +170,4 @@ the city of happiness. I cannot describe it at all. It is possible that it does 
 to know where they are going, the ones who walk away from Omelas.
 
 
+This connects to [[Utilitarianism]] and [[Moral Absolutism]]

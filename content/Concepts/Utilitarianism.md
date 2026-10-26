@@ -38,3 +38,7 @@ Evaluates the utility of adhering to general rules of conduct rather than indivi
   * *Example:* "It is better to be a human being dissatisfied than a pig satisfied." The intellectual depth derived from literature or philosophy outweighs simple bodily satisfaction.
 
 ---
+## Structural Counter-Frameworks
+
+* [[Deontology]]: Argues that duty and moral rules are binding regardless of consequences.
+* [[Virtue Ethics]]: Focuses on moral character rather than actions or outcomes.
