@@ -1,9 +1,3 @@
----
-title: Utilitarianism
-tags:
-  - philosophy
-  - ethics
----
 # Utilitarianism
 
 **Utilitarianism** is a consequentialist ethical framework holding that the moral worth of an action is determined solely by its outcomes. Its core directive is the optimization of aggregate utility—maximizing overall well-being, pleasure, or preference-satisfaction while minimizing suffering.

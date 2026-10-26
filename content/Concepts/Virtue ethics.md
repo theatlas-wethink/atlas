@@ -1,9 +1,3 @@
----
-title: Virtue Ethics
-tags:
-  - philosophy
-  - ethics
----
 
 # Virtue Ethics
 

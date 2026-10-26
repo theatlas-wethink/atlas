@@ -1,9 +1,3 @@
----
-title: Moral Absolutism
-tags:
-  - philosophy
-  - ethics
----
 
 # Moral Absolutism
 

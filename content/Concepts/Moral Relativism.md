@@ -1,10 +1,3 @@
----
-title: Moral Relativism
-tags:
-  - philosophy
-  - ethics
-  - epistemology
----
 
 # Moral Relativism
 
