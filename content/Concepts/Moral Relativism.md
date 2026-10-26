@@ -47,5 +47,5 @@ Reduces moral claims entirely to personal preferences, emotional attitudes, or i
 
 * [[Moral Absolutism]]: Holds that certain actions are intrinsically right or wrong regardless of context or culture.
 * [[Utilitarianism]]: Evaluates morality objectively based on aggregate outcome calculations (utility maximization) rather than cultural norms.
-* [[Deontology]]: Derives universal moral duties from rational consistency rather than social consensus.
+* [[Virtue ethics]]: Derives universal moral duties from rational consistency rather than social consensus.
 * 

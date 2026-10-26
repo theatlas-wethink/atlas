@@ -47,4 +47,4 @@ Posits that human beings possess fundamental rights (such as bodily autonomy or 
 
 * [[Utilitarianism]]: Holds that actions have no intrinsic moral value and are judged entirely by their aggregate consequences.
 * [[Moral Relativism]]: Asserts that moral claims are relative to culture, context, or historical epoch rather than universal.
-* [[Virtue Ethics]]: Centers morality on the development of practical wisdom and character traits rather than rigid adherence to absolute rules.
+* [[Virtue ethics]]: Centers morality on the development of practical wisdom and character traits rather than rigid adherence to absolute rules.
