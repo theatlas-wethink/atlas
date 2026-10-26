@@ -1,32 +1,52 @@
-{
-  "name": "quartz",
-  "version": "5.0.0",
-  "private": true,
-  "description": "A fast, batteries-included static-site generator that transforms Markdown notes into functional websites",
-  "bin": {
-    "quartz": "./quartz/cli/index.js"
-  },
-  "scripts": {
-    "build": "node ./quartz/cli/index.js build",
-    "check": "node ./quartz/cli/index.js check"
-  },
-  "dependencies": {
-    "esbuild": "^0.25.0",
-    "fast-glob": "^3.3.3",
-    "gray-matter": "^4.0.3",
-    "hast-util-to-html": "^9.0.5",
-    "katex": "^0.16.21",
-    "lilconfig": "^3.1.2",
-    "slugify": "^1.6.6",
-    "undici": "^6.21.1",
-    "unist-util-visit": "^5.0.0",
-    "vfile": "^6.0.3",
-    "yaml": "^2.7.0"
-  },
-  "devDependencies": {
-    "@types/katex": "^0.16.7",
-    "tsx": "^4.19.2",
-    "typescript": "^5.7.3"
-  }
-}
+name: Deploy Quartz site to GitHub Pages
 
+on:
+  push:
+    branches:
+      - v5
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Quartz
+        run: npx quartz build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        
